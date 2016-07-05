@@ -178,7 +178,7 @@ function printBuyedList(paidItems,gifts,summary){
     }
     logString += '----------------------\n';
     logString += "总计："+summary.total.toFixed(2)+"（元）\n";
-    logString += "总计："+summary.save.toFixed(2)+"（元）\n";
+    logString += "节省："+summary.save.toFixed(2)+"（元）\n";
     logString += '**********************';
     console.log(logString);
 }
